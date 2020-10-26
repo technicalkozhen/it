@@ -1,0 +1,39 @@
+import java.util.*;
+
+  public class kozhin_wrya_mahmud{
+  
+    public static void main(String[]args){
+    
+    
+        Scanner scan=new Scanner(System.in);
+        
+        System.out.println("how many letters your name?");
+        
+        int day=scan.nextInt();
+        
+         char[]array=new char[day];
+         
+            System.out.println("write your name in letters");
+            
+                  for(int x=0;x<array.length;x++){
+                          
+                          char old=scan.next().charAt(0);
+                          
+                          array[x]=old;
+                     }
+                     
+                      System.out.print("your name is");
+                      
+                      for(int x=0;x<day;x++){
+                         
+                            System.out.print(array[x]);
+                      
+                      }
+                      
+                        
+                        System.out.println();
+                        
+         
+      }
+    
+    }
